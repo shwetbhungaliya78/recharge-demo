@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/recharge-demo/static/css/main.3274b984.chunk.css",
+    "main.js": "/recharge-demo/static/js/main.823221c3.chunk.js",
+    "main.js.map": "/recharge-demo/static/js/main.823221c3.chunk.js.map",
+    "runtime~main.js": "/recharge-demo/static/js/runtime~main.f5e23355.js",
+    "runtime~main.js.map": "/recharge-demo/static/js/runtime~main.f5e23355.js.map",
+    "static/js/2.afeb26e6.chunk.js": "/recharge-demo/static/js/2.afeb26e6.chunk.js",
+    "static/js/2.afeb26e6.chunk.js.map": "/recharge-demo/static/js/2.afeb26e6.chunk.js.map",
+    "index.html": "/recharge-demo/index.html",
+    "precache-manifest.7b8bb3352740b77b007cc077b937812b.js": "/recharge-demo/precache-manifest.7b8bb3352740b77b007cc077b937812b.js",
+    "service-worker.js": "/recharge-demo/service-worker.js",
+    "static/css/main.3274b984.chunk.css.map": "/recharge-demo/static/css/main.3274b984.chunk.css.map"
+  }
+}
