@@ -1,0 +1,432 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.left-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  height: 40px;
+  width: auto;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.main .main-silder {
+  display: flex;
+  margin: 25px;
+}
+
+.main .main-silder img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.main .main-silder .first-img {
+  display: block;
+  margin: 0 8px;
+}
+
+.main .main-silder .second-img {
+  display: block;
+  margin: 0 8px;
+}
+
+.timer {
+  display: block;
+  padding: 5px 0;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.timer-inner b {
+  color: rgb(51 65 85 / var(--tw-text-opacity));
+  ;
+}
+
+.timer img {
+  width: 10px;
+}
+
+.main-mobile {
+  display: block;
+  margin: 50px 0;
+}
+
+.main-mobile .mobile-inner {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  padding: 20px 0;
+}
+
+.mobile {
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.mobile .title {
+  display: flex;
+  align-items: center ;
+  gap: 5px;
+}
+
+.title img {
+  height: 40px;
+  width: auto;
+}
+
+.network {
+  display: block;
+  margin: 15px;
+
+}
+.network-inner p{
+  margin-bottom: 10px;
+}
+.radio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-item {
+  display: block;
+  padding: 5px 10px;
+  text-align: center;
+  border: 2px solid plum;
+  border-radius: 5px;
+  text-align: center;
+  color: purple;
+}
+
+.radio-item1 input {
+  display: block;
+  width: 98%;
+  padding: 10px;
+  border: 2px solid plum;
+  border-radius: 5px;
+  color: purple;
+}
+
+.radio-item2 button {
+  display: block;
+  width: 100%;
+  margin: 25px 0 0 0;
+  padding: 20px;
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.main-recharge {
+  display: block;
+}
+
+.main-recharge .jio {
+  display: block;
+  padding: 10px 20px;
+}
+
+.main-recharge .jio .jio-left {
+  display: flex;
+}
+
+.main-recharge .jio .jio-left img {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.main-recharge .jio .jio-left p {
+  display: block;
+  margin: 0;
+}
+
+.text {
+  display: block;
+  margin: 0;
+}
+
+.paid {
+  display: block;
+}
+
+.change {
+  float: right;
+}
+
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.headers .logo {
+  display: flex;
+  align-items: center;
+}
+
+.headers .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.headers .company-name {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.headers .company-name p {
+  display: block;
+  margin: 0;
+}
+
+.headers .link {
+  font-size: 16px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.headers .link:hover {
+  text-decoration: underline;
+}
+
+.new {
+  display: block;
+  padding: 15px 0;
+  background-color: plum;
+}
+
+.new-inner {
+  display: block;
+  align-items: center;
+}
+
+.title {
+  display: block;
+  text-align: center;
+}
+
+.title p {
+  margin: 0;
+  padding: 2px 0;
+}
+
+.new-rechrge {
+  display: block;
+  margin: 40px 0;
+}
+
+.new-rechrge .new-inner {
+  display: block;
+  padding: 30px;
+  background-color: #b8afaf;
+  border-radius: 15px;
+
+}
+
+.new-text b {
+  text-transform: capitalize;
+  background-color: red;
+  padding: 4px 8px;
+  color: white;
+  border-radius: 5px;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-img {
+  display: flex;
+  float: right;
+}
+
+.price {
+  display: block;
+  margin: 10px 0;
+}
+
+.price-text {
+  display: block;
+}
+
+.price-text b {
+  padding-right: 15px;
+}
+
+.plan {
+  margin: 25px 0;
+}
+
+.btn button {
+  display: block;
+  background-color: rgb(95 37 159);
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  color: white;
+  border-radius: 15px;
+}
+
+.paymnet {
+  display: block;
+}
+
+.payment-inner {
+  display: block;
+  border-bottom: 1px solid black;
+}
+
+.paymnet .paymnet-title h4 {
+  display: block;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.phonepay {
+  display: block;
+  margin: 20px 0;
+
+}
+
+.phonepay img {
+  display: block;
+  width: 100%;
+}
+
+.logo-container {
+  display: block;
+  margin: 25px;
+}
+
+.logo-inner {
+  display: block;
+  border: 1px solid #007BFF;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.logo-container img {
+  vertical-align: middle;
+  width: 2%;
+  height: auto;
+  margin: 15px;
+}
+
+.price-details {
+  margin: 0 15px;
+}
+
+.price-title b {
+  font-size: 25px;
+
+}
+
+.item-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  display: block;
+  margin: 10px 0;
+}
+
+.payment-logo {
+  display: block;
+  margin: 25px 0;
+}
+
+.payment-logo img {
+  display: block;
+  width: 100%;
+}
+
+.continue {
+  display: flex;
+}
+
+.continue .price-details {
+  margin: 15px !important;
+  width: 42%;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.btns button {
+  display: block;
+  padding: 15px 60px;
+  border: 1px solid #FF8F00;
+  background-color: #FF8F00;
+  border: none;
+  border-radius: 5px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  width: 20%;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.popup-content {
+  max-width: 300px;
+  /* text-align: center; */
+}
+.rights{
+  float: right;
+}
+button {
+  margin-top: 10px;
+}
+.new-inner{
+  margin:20px 0;
+}
+.decoration{
+  text-decoration: line-through;
+}
